@@ -23,11 +23,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.form{
+  width: 50%;
+  margin: auto;
+  justify-items: center;
 
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
